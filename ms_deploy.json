@@ -1,0 +1,5 @@
+{
+  "sdk": "docker",
+  "port": 7860,
+  "resource": "cpu-basic"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "fzlib-mcp",
+  "version": "0.11.0",
+  "private": true,
+  "type": "module",
+  "description": "福州图书馆 OPAC 的只读 MCP 服务器（stdio + Streamable HTTP / SSE）",
+  "bin": {
+    "fzlib-mcp": "src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "stdio": "node src/index.js",
+    "http": "node src/http.js",
+    "smoke": "node test/smoke.mjs",
+    "test:http": "node test/http.mjs",
+    "selfcheck": "node test/selfcheck.mjs",
+    "check": "node test/static.mjs",
+    "test": "node test/static.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadamMadamitsdifficult/fzlib-mcp.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "opac",
+    "library",
+    "fuzhou",
+    "interlib"
+  ]
+}

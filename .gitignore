@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+*.log
+
+# 上游接口详版笔记（含具体路径与参数，不公开）
+docs/*.private.md
